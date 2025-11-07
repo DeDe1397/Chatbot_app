@@ -27,6 +27,8 @@ FAISSによる高速な類似検索
 ## 依存インストール
 ```bash
 pip install -r requirements.txt
+streamlit run app.py
+uvicorn api:app --reload
 ```
 
 ## 環境変数（.env）
@@ -36,3 +38,6 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## 追加機能検討事項
 最大ファイルサイズ、対応拡張子、タイムアウト、PDF：OCR
+
+## Qiita記事
+https://qiita.com/c62323440/items/79c2bfb65c3adb757c36
