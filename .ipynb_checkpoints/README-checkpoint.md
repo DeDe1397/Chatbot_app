@@ -38,6 +38,5 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-
 ## 追加機能検討事項
 最大ファイルサイズ、対応拡張子、タイムアウト、PDF：OCR
