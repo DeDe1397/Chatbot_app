@@ -38,17 +38,6 @@ pip install -r requirements.txt
 OPENAI_API_KEY=your_openai_api_key
 ```
 
-## アーキテクチャ
-```mermaid
-Streamlit (UI)
-   │
-   ├─(HTTP)→ FastAPI (Backend)
-   │            ├─ LangChain → OpenAI API（埋め込み/推論）
-   │            ├─ FAISS（ベクトル索引）
-   │            └─ PDF/CSV  分割
-   │
-   └─(結果表示)←───────────────┘
-```
 
 ## 追加機能検討事項
 最大ファイルサイズ、対応拡張子、タイムアウト、PDF：OCR
